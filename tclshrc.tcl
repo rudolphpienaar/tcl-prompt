@@ -72,7 +72,8 @@ if {[info exists tcl_interactive] && $tcl_interactive} {
     }
 
     # --- Central Theme Definition ---
-    # This array defines the colors for segments. It is not yet used.
+    # Change values here, referencing the colors above, for customization.
+    # I know it's a bit primitive, but it's a start!
     array set prompt_theme {
         default_fg    fg_white
         default_style bold
